@@ -5,13 +5,15 @@ This repository contains all the data, spatial files, and code used to execute t
 
 If you have any questions regarding this publication please contact Elyce Buell (<enb46@cornell.edu> or <ebuell@vt.edu>).
 
-Excels (excel and sheet names):
--------------------------------------------------------------------------------------------- 
-### PhysicalProperties_datainpaper
-	PhysicalResults	- 	Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
-				              Final texture, organic matter, and horizon depth information found here. All categories included in this excel are used in the paper analysis. 
-				              Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
+## Excels (excel and sheet names):
+
+### PhysicalProperties_datainpaper.xlsx
+Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
+#### PhysicalResults	
+Final texture, organic matter, and horizon depth information found here. All categories included in this excel are used in the paper analysis. 
+Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
+#### WSView 		      
+Locations of soil cores (numbers correspond to WSView ID)
 
 PhysicalProperties_alldata
 	PhysicalResults	- 	Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
