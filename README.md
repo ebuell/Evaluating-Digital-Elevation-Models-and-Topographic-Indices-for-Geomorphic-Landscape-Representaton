@@ -4,7 +4,7 @@ If you have any questions regarding this publication please contact Elyce Buell 
 
 Excels (excel and sheet names):
 -------------------------------------------------------------------------------------------- 
-PhysicalProperties_datainpaper
+### PhysicalProperties_datainpaper
 	PhysicalResults	- 	Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
 				              Final texture, organic matter, and horizon depth information found here. All categories included in this excel are used in the paper analysis. 
 				              Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
