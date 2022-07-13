@@ -2,6 +2,7 @@ Evaluating Digital Elevation Models and Topographic Indices for Geomorphic Lands
 =================
 
 This repository contains all the data, spatial files, and code used to execute the analysis in Evaluating Digital Elevation Models and Topographic Indices for Geomorphic Landscape Representation.
+
 If you have any questions regarding this publication please contact Elyce Buell (<enb46@cornell.edu> or <ebuell@vt.edu>).
 
 Excels (excel and sheet names):
