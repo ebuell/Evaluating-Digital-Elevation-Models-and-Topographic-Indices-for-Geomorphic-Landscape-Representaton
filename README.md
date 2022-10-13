@@ -64,22 +64,46 @@ Delineates watershed and export tiff files for slope, catchment area, aspect, to
 	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/1_3arcsec_arcproj_bilin.tif","1_3arcsec_arcproj_bilin.tif")
 	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2010LIDAR_arcproj_bilin.tif","2010LIDAR_arcproj_bilin.tif")
 	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2018LIDAR_arcproj_bilin.tif","2018LIDAR_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/MonitoringPoint.shp","MonitoringPoint.shp")
 	file.edit("runDelin_taudem.R")
 
 ### ExtractSpatial
-Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
+Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations. Must run runDelin_taudem.R and save rasters locally in order for extraction to work
+
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/ExtractSpatial.R","ExtractSpatial.R")
+	file.edit("ExtractSpatial.R")
 
 ### Fig2to5
-Figure generation for figures 2-5 and figures S2-S5
+Figure generation for figures 2-5 and figures S2-S5. Must run runDelin_taudem.R and save rasters locally in order for figure generation to work
+
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Fig2to5.R","Fig2to5.R")
+	file.edit("Fig2to5.R")
 
 ### Fig6and7
-Figure generation for figures 6 and 7
+Figure generation for figures 6 and 7. Must run runDelin_taudem.R and save rasters locally in order for figure generation to work
+
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Fig6and7.R","Fig6and7.R")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/PhysicalProperties_datainpaper.xlsx","PhysicalProperties_datainpaper.xlsx")
+	file.edit("Fig6and7.R")
 
 ### Fig8to10
-Figure generation for figures 8-10
+Figure generation for figures 8-10. Must run runDelin_taudem.R and save rasters locally in order for figure generation to work
+
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Fig8to10.R","Fig8to10.R")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/PhysicalProperties_datainpaper.xlsx","PhysicalProperties_datainpaper.xlsx")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/DEMderivedSpatialAtt.xlsx","DEMderivedSpatialAtt.xlsx")
+	file.edit("Fig8to10.R")
 
 ### Figsupp
 Supplemental figure generation
+	
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Figsupp.R","Figsupp.R")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/1arcsec_arcproj_bilin.tif","1arcsec_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/1_3arcsec_arcproj_bilin.tif","1_3arcsec_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2010LIDAR_arcproj_bilin.tif","2010LIDAR_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2018LIDAR_arcproj_bilin.tif","2018LIDAR_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/MonitoringPoint.shp","MonitoringPoint.shp")
+	file.edit("Figsupp.R")
 
 
 ## Excels (excel and sheet names) summary:
