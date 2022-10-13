@@ -254,3 +254,6 @@ Soil sampling locations
 
 ### 2018LIDAR_arcproj_bilin
 2018LIDAR DEM bilinear projection executed in ArcMap; dataset too big to upload to github, please find via google drive here: <https://drive.google.com/file/d/1fc_7hbiMM8hfNFi38inOW2mjg_jeq-K6/view?usp=sharing>
+
+# License
+Please see the LICENSE.md file for license information.
