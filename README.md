@@ -16,9 +16,10 @@ There is also a cloud-based `RStudio` sever at the following location:
 
 - Cloud-based `RStudio` server: <https://rstudio.cloud/>
 
-See the following likes for information regarding 'DEM' data
+See the following likes for information regarding `DEM` data
 
 - USGS DEM download <https://apps.nationalmap.gov/downloader/#/>
+- For information regarding LiDAR data please contact Elyce Buell (enb46@cornell.edu or ebuell@vt.edu) or Johnathan Resop (resop@vt.edu) 
 
 ## Excels (excel and sheet names):
 
