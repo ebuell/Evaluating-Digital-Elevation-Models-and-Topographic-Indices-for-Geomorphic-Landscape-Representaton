@@ -5,6 +5,17 @@ This repository contains all the data, spatial files, and code used to execute t
 
 If you have any questions regarding this publication please contact Elyce Buell (<enb46@cornell.edu> or <ebuell@vt.edu>).
 
+## Links
+See the following links for more information on  `R` and `RStudio` download and installation:
+
+- An introduction to `R`: <https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf>
+- `R` download: <https://www.r-project.org/>
+- `RStudio` download: <https://www.rstudio.com/>
+
+There is also a cloud-based `RStudio` sever at the following location:
+
+- Cloud-based `RStudio` server: <https://rstudio.cloud/>
+
 ## Excels (excel and sheet names):
 
 ### PhysicalProperties_datainpaper.xlsx
