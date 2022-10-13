@@ -21,6 +21,11 @@ See the following likes for information regarding `DEM` data
 - USGS DEM download <https://apps.nationalmap.gov/downloader/#/>
 - For information regarding LiDAR data please contact Elyce Buell (enb46@cornell.edu or ebuell@vt.edu) or Johnathan Resop (resop@vt.edu) 
 
+## Description
+This repository contains R codes, excel files and DEM files for a project named *Multi-Scale Evaluation Digital Elevation Models (DEMs) and Topographic Indices (TI) for Geomorphic Landscape Representation*. This study is conducted to propose a new method of distributing soils using multiple DEMs as inputs. Thirty-six soil samples are analyzed for clay content, organic matter, and horizon thickness for A and BA horizons in southwest Virginia. Four DEMs (USGS ⅓ and 1as; 2010 and 2018 aerial LiDAR) are analyzed for spatial differences between derived properties (slope, Specific Catchment Area (SCA), and TI). Using multivariate regression, these soil properties are predicted, and a framework for soil map distribution is proposed.
+
+ 
+
 ## Excels (excel and sheet names):
 
 ### PhysicalProperties_datainpaper.xlsx
