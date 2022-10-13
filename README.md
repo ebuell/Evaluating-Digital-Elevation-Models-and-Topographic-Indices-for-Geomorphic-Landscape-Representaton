@@ -74,31 +74,62 @@ Summarizes OM for all horizons. Loss on ignition tests are conducted on each hor
 
 #### WSView 
 Locations of soil cores (numbers correspond to WSView ID)
-	OrgMatter	      -	  Direct weight measurements and calculations for organic matter
-	QAQC_NewSoil	  -	  New soil subsamples from the same core/horizon are analyzed for organic matter
-	QAQC_NewSoilAnalysis-	Analysis to see if the errors seen in these QAQC runs is tied to horizon thickness or the amount of time that the soil has been left unfrozen 
-                      in between runs
-	QAQC_SampleRerun-	  Already incinerated samples were rerun in order to check that the current methodology was suffcient accurate within reason.
+	
+#### OrgMatter
+Direct weight measurements and calculations for organic matter
 
-SoilTexture
-	TextureFinal	  -	  Final texture (sand and clay) values decided by R code. For more information on texture descision making for this calculation is in the R code
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
-	SoilGravel	    -	  Measured gravel content using a 2mm sieve
-	TextureSummary	-	  Relevant measurement values for calculating soil texture
-	QAQCTextureSummary-	Summarizes QAQC and orgininal runs; this includes two types of QAQC: reruns (i.e. shake the soil column again with same soil) and new soil from 
-                      soil column
+#### QAQC_NewSoil
+New soil subsamples from the same core/horizon are analyzed for organic matter
 
-HydrometerMeas		Direct hydrometer measurements following the method described in ASTM D4222. In order to directly calculate the hydrometer corrects (see ASTM D4222), 
-                  several corrections need to be measured. This ultimately did not pan out and texture was calculated using envalysis package.
-	TextureSummary	-	  Relevant measurement values for calculating soil texture
-	QAQCTextureSummary-	Relevant measurement values for calculating QAQC soil texture
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)	
-	SoilTextureA	  - 	All measurements for hydrometer trials for A horizon
-	SoilTextureBa	  -	  "	"	"	"	"	"  Ba horizon
-	SoilTextureBt 	-	  "	"	"	"	"	"  Bt horizon
-	TempCorrMeas	  -	  Measured hydrometer correction values in distilled water at a variety of temperatures. A very poor relationship between temperature and 
-                      hydrometer correction is found implying the poor reliability of the thermometers being used in the hydrometer method.
-	CorrectionSummary-	Direct measurement corrections.
+#### QAQC_NewSoilAnalysis
+Analysis to see if the errors seen in these QAQC runs is tied to horizon thickness or the amount of time that the soil has been left unfrozen in between runs
+	
+#### QAQC_SampleRerun
+Already incinerated samples were rerun in order to check that the current methodology was suffcient accurate within reason.
+
+### SoilTexture.xlxs
+
+#### TextureFinal
+Final texture (sand and clay) values decided by R code. For more information on texture descision making for this calculation is in the R code
+
+#### WSView
+Locations of soil cores (numbers correspond to WSView ID)
+
+#### SoilGravel
+Measured gravel content using a 2mm sieve
+
+#### TextureSummary
+Relevant measurement values for calculating soil texture
+
+#### QAQCTextureSummary
+Summarizes QAQC and orgininal runs; this includes two types of QAQC: reruns (i.e. shake the soil column again with same soil) and new soil from soil column
+
+### HydrometerMeas.xlsx
+Direct hydrometer measurements following the method described in ASTM D4222. In order to directly calculate the hydrometer corrects (see ASTM D4222), several corrections need to be measured. This ultimately did not pan out and texture was calculated using envalysis package.
+	
+#### TextureSummary
+Relevant measurement values for calculating soil texture
+
+#### QAQCTextureSummary
+Relevant measurement values for calculating QAQC soil texture
+
+#### WSView
+Locations of soil cores (numbers correspond to WSView ID)	
+
+#### SoilTextureA
+All measurements for hydrometer trials for A horizon
+
+#### SoilTextureBa
+All measurements for hydrometer trials for Ba horizon
+	
+#### SoilTextureBt
+All measurements for hydrometer trials for Bt horizon
+	
+#### TempCorrMeas
+Measured hydrometer correction values in distilled water at a variety of temperatures. A very poor relationship between temperature and hydrometer correction is found implying the poor reliability of the thermometers being used in the hydrometer method.
+	
+#### CorrectionSummary
+Direct measurement corrections.
 
 KSatMeas
 	KSAT		        - 	Ksat values and lats and longs
