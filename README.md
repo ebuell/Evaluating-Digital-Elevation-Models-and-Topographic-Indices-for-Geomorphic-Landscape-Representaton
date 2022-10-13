@@ -48,16 +48,30 @@ This repository contains R codes, excel files and DEM files for a project named 
 Download and install per instuctions found here <https://hydrology.usu.edu/taudem/taudem5/>
 
 ## Running R code
-R Code
+### Texture
+Calculates texture of samples using envalysis package
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Texture.R","Texture.R")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/HydrometerMeas.xlsx","HydrometerMeas.xlsx")
+	file.edit("Texture.R")
 
-Texture		        -	  Calculates texture of samples using envalysis package
-runDelin_taudem	  -	  Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class
-                      Outlet for the watershed studied (in lat long): 37.204526, -80.445175
-ExtractSpatial	  -	  Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
-Fig2to5		        -	  Figure generation for figures 2-5 and figures S2-S5
-Fig6and7	        -	  Figure generation for figures 6 and 7
-Fig8to10	        -	  Figure generation for figures 8-10
-Figsupp		        - 	Supplemental figure generation
+
+### runDelin_taudem
+Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class Outlet for the watershed studied (in lat long): 37.204526, -80.445175
+
+### ExtractSpatial
+Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
+
+### Fig2to5
+Figure generation for figures 2-5 and figures S2-S5
+
+### Fig6and7
+Figure generation for figures 6 and 7
+
+### Fig8to10
+Figure generation for figures 8-10
+
+### Figsupp
+Supplemental figure generation
 
 
 ## Excels (excel and sheet names) summary:
