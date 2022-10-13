@@ -16,6 +16,10 @@ There is also a cloud-based `RStudio` sever at the following location:
 
 - Cloud-based `RStudio` server: <https://rstudio.cloud/>
 
+See the following likes for information regarding 'DEM' data
+
+- USGS DEM download <https://apps.nationalmap.gov/downloader/#/>
+
 ## Excels (excel and sheet names):
 
 ### PhysicalProperties_datainpaper.xlsx
