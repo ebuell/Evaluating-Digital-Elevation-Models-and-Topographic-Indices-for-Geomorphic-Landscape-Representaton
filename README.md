@@ -47,7 +47,20 @@ This repository contains R codes, excel files and DEM files for a project named 
 ### Additional R functionality required: TauDEM
 Download and install per instuctions found here <https://hydrology.usu.edu/taudem/taudem5/>
 
-## Excels (excel and sheet names):
+## Running R code
+R Code
+
+Texture		        -	  Calculates texture of samples using envalysis package
+runDelin_taudem	  -	  Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class
+                      Outlet for the watershed studied (in lat long): 37.204526, -80.445175
+ExtractSpatial	  -	  Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
+Fig2to5		        -	  Figure generation for figures 2-5 and figures S2-S5
+Fig6and7	        -	  Figure generation for figures 6 and 7
+Fig8to10	        -	  Figure generation for figures 8-10
+Figsupp		        - 	Supplemental figure generation
+
+
+## Excels (excel and sheet names) summary:
 
 ### PhysicalProperties_datainpaper.xlsx
 Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
@@ -131,53 +144,67 @@ Measured hydrometer correction values in distilled water at a variety of tempera
 #### CorrectionSummary
 Direct measurement corrections.
 
-KSatMeas
-	KSAT		        - 	Ksat values and lats and longs
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
-	SatHydCondTestx	-	  Sheets with direct field readings for the Eijkelkamp Soil & Water double-ring infiltrometer test following (Bouwer, 1986;  DOI: 
-                      10.2136/sssabookser5.1.2ed.c32)
+### KSatMeas.xlsx
 
-DEMderivedSpatialAtt	All numbers in this document are derived using TauDEM: available at: https://github.com/dtarb/TauDEM. Both D8 and Dinf flow direction algorithms 
-                      (discussed in	Tarboton DG. 1997; DOI: 10.1029/96WR03137) are used as well as the four DEMs (LIDAR 2018, LIDAR 2010, 1/3as, and 1as).
-	SCA		          -	  Speicfic catchment area (expressed in m)
-	Slope		        -	  Slope (expressed in length/length)
-	TIValue		      - 	TIV = ln(SCA/slope)
-	TIClass		      -	  TIC bins the TIVs into 10 equally sized categories ranging from 1-10 (where the highest TIVs correspond to TIC = 10 etc.)
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
-	Aspect		      -	  Aspects range from 1-8. Refer to TauDEM documentation to understand these values.
+#### KSAT
+Ksat values and lats and longs
 
-MeasSpatProp
-	SpatialProp	    -	  Measured spatial properties (slope and aspect); a phone app clinometer 
-                      (https://play.google.com/store/apps/details?id=com.plaincode.clinometer&hl=en_US&gl=US) and phone compass are used to measure these values. The 
-                      measurement was taken with the assistance of a 4-wheel vehicle; the vehicle was oriented perpendicularly to the slope and the slope that the 
-                      utility vehicle is experiancing is recorded. The distance between the two front wheels of the utility vehicle is 1.2m. The aspect is measured by 
-                      pointing the compass perpendicularly and downslope of how the utility vehicle is oriented for the slope measurement.
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
----------------------------------------------------------------------------------------
+#### WSView
+Locations of soil cores (numbers correspond to WSView ID)
 
+#### SatHydCondTestx
+Sheets with direct field readings for the Eijkelkamp Soil & Water double-ring infiltrometer test following (Bouwer, 1986;  DOI: 10.2136/sssabookser5.1.2ed.c32)
 
-R Code
----------------------------------------------------------------------------------------
-Texture		        -	  Calculates texture of samples using envalysis package
-runDelin_taudem	  -	  Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class
-                      Outlet for the watershed studied (in lat long): 37.204526, -80.445175
-ExtractSpatial	  -	  Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
-Fig2to5		        -	  Figure generation for figures 2-5 and figures S2-S5
-Fig6and7	        -	  Figure generation for figures 6 and 7
-Fig8to10	        -	  Figure generation for figures 8-10
-Figsupp		        - 	Supplemental figure generation
---------------------------------------------------------------------------------------
+### DEMderivedSpatialAtt.xlsx
+All numbers in this document are derived using TauDEM: available at: <https://github.com/dtarb/TauDEM>. Both D8 and Dinf flow direction algorithms (discussed in Tarboton DG. 1997; DOI: 10.1029/96WR03137) are used as well as the four DEMs (LIDAR 2018, LIDAR 2010, 1/3as, and 1as).
+	
+#### SCA
+Speicfic catchment area (expressed in m)
 
-Spatial data
---------------------------------------------------------------------------------------
-Construction_exclusion      -   A box that surround highway 460 throughout the entire watershed so analysis can exclude this area
-Monitoring_point            -	  Outlet location
-pathsunderoverpass          -	  A path that is created to mimic storm drainage culverts that run below highway 460. Only used for LIDAR analysis; USGS DEM did not have 
-                                any highway interfereance.
-SoilSampleLocations         -	  Soil sampling locations
-1as_arcproj_bilin           -	  1 as DEM bilinear projection executed in ArcMap
-1_3as_arcproj_bilin         -	  1/3 as DEM bilinear projection executed in ArcMap
-2010LIDAR_arcproj_bilin     -   2010LIDAR DEM bilinear projection executed in ArcMap
-2018LIDAR_arcproj_bilin     -   2018LIDAR DEM bilinear projection executed in ArcMap; dataset too big to upload to github, please find via google drive here: 
-                                https://drive.google.com/file/d/1fc_7hbiMM8hfNFi38inOW2mjg_jeq-K6/view?usp=sharing
---------------------------------------------------------------------------------------
+#### Slope
+Slope (expressed in length/length)
+
+#### TIValue
+TIV = ln(SCA/slope)
+	
+#### TIClass
+TIC bins the TIVs into 10 equally sized categories ranging from 1-10 (where the highest TIVs correspond to TIC = 10 etc.)
+
+#### WSView
+Locations of soil cores (numbers correspond to WSView ID)
+
+#### Aspect
+Aspects range from 1-8. Refer to TauDEM documentation to understand these values.
+
+### MeasSpatProp.xlsx
+#### SpatialProp
+Measured spatial properties (slope and aspect); a phone app clinometer (<https://play.google.com/store/apps/details?id=com.plaincode.clinometer&hl=en_US&gl=US>) and phone compass are used to measure these values. The measurement was taken with the assistance of a 4-wheel vehicle; the vehicle was oriented perpendicularly to the slope and the slope that the utility vehicle is experiancing is recorded. The distance between the two front wheels of the utility vehicle is 1.2m. The aspect is measured by pointing the compass perpendicularly and downslope of how the utility vehicle is oriented for the slope measurement.
+
+#### WSView 
+Locations of soil cores (numbers correspond to WSView ID)
+
+## Spatial data files
+
+### Construction_exclusion
+A box that surround highway 460 throughout the entire watershed so analysis can exclude this area
+
+### Monitoring_point
+Outlet location
+
+### pathsunderoverpass
+A path that is created to mimic storm drainage culverts that run below highway 460. Only used for LIDAR analysis; USGS DEM did not have any highway interfereance.
+
+### SoilSampleLocations
+Soil sampling locations
+
+### 1as_arcproj_bilin
+1 as DEM bilinear projection executed in ArcMap
+
+### 1_3as_arcproj_bilin
+1/3 as DEM bilinear projection executed in ArcMap
+
+### 2010LIDAR_arcproj_bilin
+2010LIDAR DEM bilinear projection executed in ArcMap
+
+### 2018LIDAR_arcproj_bilin
+2018LIDAR DEM bilinear projection executed in ArcMap; dataset too big to upload to github, please find via google drive here: <https://drive.google.com/file/d/1fc_7hbiMM8hfNFi38inOW2mjg_jeq-K6/view?usp=sharing>
