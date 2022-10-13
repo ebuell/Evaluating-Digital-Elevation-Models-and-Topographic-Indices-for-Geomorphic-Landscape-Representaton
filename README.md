@@ -51,27 +51,29 @@ Download and install per instuctions found here <https://hydrology.usu.edu/taude
 
 ### PhysicalProperties_datainpaper.xlsx
 Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
+
 #### PhysicalResults	
 Final texture, organic matter, and horizon depth information found here. All categories included in this excel are used in the paper analysis. 
 Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
+
 #### WSView 		      
 Locations of soil cores (numbers correspond to WSView ID)
 
-PhysicalProperties_alldata
-	PhysicalResults	- 	Summarizes physical properties of soil cores taken at 36 locations in southwest virginia
-				              Final texture, organic matter, and horizon depth information found here. Not all categories included in this excel are used in the paper        
-                      analysis. Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
-	WSView 		      -	  Locations of soil cores (numbers correspond to WSView ID)
+### PhysicalProperties_alldata.xlsx
 
-OrganicMatter
-	OM	            -	  Summarizes OM for all horizons. Loss on ignition tests are conducted on each horizon for all soil cores. Soil samples ranged from 50g to 250g. 
-                      Samples were dried for 2 days in a Fisher Scientific Isotherm oven set to 105 degC and are subsequently weighed. These samples are incinerated 
-                      and before and after weights are compared to yield percent organic matter by weight. The samples are incinerated at 425 degC. The length of 
-                      incineration was dictated by the incinerator used. For the Barnstead International Model 1730 12 sample incinerator, samples are incinerated for 
-                      a minimum of 6 hours. For the Thermolyne Furnace Type 10500 1 sample incinerator, samples are incinerated for a minimum of 4 hours. A 4 hour 
-                      incineration in the Barnstead International Model 1730 was shown to have magnitude errors of up to 1% organic matter and thus 2 additional hours 
-                      were added on to the incineration time.
-	WSView 		      - 	Locations of soil cores (numbers correspond to WSView ID)
+#### PhysicalResults
+Summarizes physical properties of soil cores taken at 36 locations in southwest virginia. Final texture, organic matter, and horizon depth information found here. Not all categories included in this excel are used in the paper analysis. Details on direct measurements and QAQC can be found in KSatMeas, OrgMatter, and SoilTexture.
+	
+#### WSView
+Locations of soil cores (numbers correspond to WSView ID)
+
+### OrganicMatter.xlsx
+
+#### OM
+Summarizes OM for all horizons. Loss on ignition tests are conducted on each horizon for all soil cores. Soil samples ranged from 50g to 250g. Samples were dried for 2 days in a Fisher Scientific Isotherm oven set to 105 degC and are subsequently weighed. These samples are incinerated and before and after weights are compared to yield percent organic matter by weight. The samples are incinerated at 425 degC. The length of incineration was dictated by the incinerator used. For the Barnstead International Model 1730 12 sample incinerator, samples are incinerated for a minimum of 6 hours. For the Thermolyne Furnace Type 10500 1 sample incinerator, samples are incinerated for a minimum of 4 hours. A 4 hour incineration in the Barnstead International Model 1730 was shown to have magnitude errors of up to 1% organic matter and thus 2 additional hours were added on to the incineration time.
+
+#### WSView 
+Locations of soil cores (numbers correspond to WSView ID)
 	OrgMatter	      -	  Direct weight measurements and calculations for organic matter
 	QAQC_NewSoil	  -	  New soil subsamples from the same core/horizon are analyzed for organic matter
 	QAQC_NewSoilAnalysis-	Analysis to see if the errors seen in these QAQC runs is tied to horizon thickness or the amount of time that the soil has been left unfrozen 
