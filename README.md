@@ -27,20 +27,22 @@ This repository contains R codes, excel files and DEM files for a project named 
  ## Quick start
 
 ### R packages that need to be installed:
-•   rnoaa
-•   EcoHydRology
-•   SWATmodel
-•   nhdplusTools
-•   sf
-•   dplyr
-•   ggplot2
-•   moments
-•   tidyverse
-•   viridis
-•   egg
+•   raster
+•   rgdal
+•   shapefiles
+•   RColorBrewer
+•   corrplot
+•   hydroGOF
+•   ggpubr
+•   rgeos
+•   envalysis
+•   elevatr
+•   devtools
+•   plot.matrix
+•   grid
 
         if (!require("pacman")) install.packages("pacman")
-        pacman::p_load(rnoaa,EcoHydRology,SWATmodel,nhdplusTools,sf,dplyr,ggplot2,moments,tidyverse,viridis,egg)
+        pacman::p_load(raster,rgdal,shapefiles,RColorBrewer,corrplot,hydroGOF,ggpubr,rgeos,envalysis,elevatr,devtools,plot.matrix,grid)
 
 ## Excels (excel and sheet names):
 
