@@ -43,6 +43,9 @@ This repository contains R codes, excel files and DEM files for a project named 
 
         if (!require("pacman")) install.packages("pacman")
         pacman::p_load(raster,rgdal,shapefiles,RColorBrewer,corrplot,hydroGOF,ggpubr,rgeos,envalysis,elevatr,devtools,plot.matrix,grid)
+	
+### Additional R functionality required: TauDEM
+Download and install per instuctions found here <https://hydrology.usu.edu/taudem/taudem5/>
 
 ## Excels (excel and sheet names):
 
