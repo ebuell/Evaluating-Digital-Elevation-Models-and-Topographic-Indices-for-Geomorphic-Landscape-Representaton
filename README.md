@@ -50,13 +50,21 @@ Download and install per instuctions found here <https://hydrology.usu.edu/taude
 ## Running R code
 ### Texture
 Calculates texture of samples using envalysis package
+	
 	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/Texture.R","Texture.R")
 	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/HydrometerMeas.xlsx","HydrometerMeas.xlsx")
 	file.edit("Texture.R")
 
 
 ### runDelin_taudem
-Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class Outlet for the watershed studied (in lat long): 37.204526, -80.445175
+Delineates watershed and export tiff files for slope, catchment area, aspect, topographic index value, and topographic index class Outlet for the watershed studied (in lat long): 37.204526, -80.445175. Please note the code below
+	
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/runDelin_taudem.R","runDelin_taudem.R")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/1arcsec_arcproj_bilin.tif","1arcsec_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/1_3arcsec_arcproj_bilin.tif","1_3arcsec_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2010LIDAR_arcproj_bilin.tif","2010LIDAR_arcproj_bilin.tif")
+	download.file("https://raw.githubusercontent.com/ebuell/Evaluating-Digital-Elevation-Models-and-Topographic-Indices-for-Geomorphic-Landscape-Representaton/main/2018LIDAR_arcproj_bilin.tif","2018LIDAR_arcproj_bilin.tif")
+	file.edit("runDelin_taudem.R")
 
 ### ExtractSpatial
 Extracts spatial data (rasters resulting from runDelin_taudem) from all soil sampling locations
