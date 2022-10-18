@@ -1,7 +1,7 @@
 Evaluating Digital Elevation Models and Topographic Indices for Geomorphic Landscape Representaton [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6791484.svg)](https://doi.org/10.5281/zenodo.6791484)
 =================
 
-This repository contains all the data, spatial files, and code used to execute the analysis in Evaluating Digital Elevation Models and Topographic Indices for Geomorphic Landscape Representation.
+This repository contains all the data, spatial files, and code used to execute the analysis in Evaluating Digital Elevation Models and Topographic Indices for Geomorphic Landscape Representation. Contributing authors: Elyce Buell, Amy Collick, Dan Fuka, Roja Kaveh Garna, and Zachary Easton.
 
 If you have any questions regarding this publication please contact Elyce Buell (<enb46@cornell.edu> or <ebuell@vt.edu>).
 
